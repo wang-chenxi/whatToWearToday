@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What To Wear</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>WHAT TO WEAR TODAY</nav>
+    <div class="container">
+        <div class="style-form">
+            <form action="#">
+                <input type="text" placeholder="What's your name?" class="form-input" id="name" name="name">
+                <select name="gender" id="gender" class="form-input">
+                    <option value="male">Man</option>
+                    <option value="female">Woman</option>
+                    <option value="neutral">Neutral</option>
+                </select>
+                <select name="style" id="style" class="form-input">
+                    <option value="business-casual">Business Casual</option>
+                    <option value="casual">casual</option>
+                </select>
+                <button class="form-input" onclick="result()">Check your style today!</button>
+            </form>
+        </div>
+        <div class="style">
+            <h2 class="headline">This is the style for you today!</h2>
+            <div class="card">
+                <h3 id="description"></h3>
+                <img src="" alt="" id="style-img">
+                <a href="index.html">Try again</a>
+            </div>
+        </div>
+    </div>
+    <footer>Chenxi Wang | <a href="https://github.com/wang-chenxi"><img src="./assets/GitHub-Mark.png" alt="github"
+                class="icon"> </a><a href="https://www.linkedin.com/in/chenxi-wang-us/"><img
+                src="./assets/LinkedIn-Mark.png" alt="LinkedIn" class="icon"></a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
